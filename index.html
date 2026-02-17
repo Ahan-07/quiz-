@@ -105,7 +105,7 @@ body{
 }
 textarea{
   width:100%;
-  height:100px;
+  height:150px;
   padding:12px;
   border:2px solid #ddd;
   border-radius:8px;
@@ -115,6 +115,50 @@ textarea{
   transition:border-color 0.3s
 }
 textarea:focus{outline:none;border-color:#667eea}
+.answer-box{
+  background:#fff3cd;
+  border-left:4px solid #ff9800;
+  padding:15px;
+  border-radius:8px;
+  margin:15px 0;
+  display:none
+}
+.answer-label{
+  font-weight:bold;
+  color:#ff6f00;
+  margin-bottom:8px
+}
+.answer-text{
+  color:#333;
+  line-height:1.6
+}
+.nav-buttons{
+  display:flex;
+  gap:10px;
+  margin-top:20px;
+  display:none
+}
+.prev-btn,.next-btn{
+  flex:1;
+  background:#667eea;
+  color:white;
+  padding:12px 20px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:16px;
+  font-weight:600;
+  transition:all 0.3s
+}
+.prev-btn:hover,.next-btn:hover{
+  background:#764ba2;
+  transform:scale(1.05)
+}
+.prev-btn:disabled{
+  background:#ccc;
+  cursor:not-allowed;
+  transform:scale(1)
+}
 .submit-btn{
   background:#667eea;
   color:white;
@@ -172,47 +216,158 @@ textarea:focus{outline:none;border-color:#667eea}
 }
 .message.correct{background:#d4edda;color:#155724}
 .message.incorrect{background:#f8d7da;color:#721c24}
+.setup-screen{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  text-align:center
+}
+.setup-title{
+  color:#333;
+  font-size:24px;
+  font-weight:bold;
+  margin-bottom:10px
+}
+.setup-subtitle{
+  color:#666;
+  font-size:14px;
+  margin-bottom:20px
+}
+.choice-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:15px;
+  margin:20px 0
+}
+.choice-card{
+  background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);
+  color:white;
+  padding:25px;
+  border-radius:12px;
+  cursor:pointer;
+  transition:all 0.3s ease;
+  border:3px solid transparent;
+  font-weight:600;
+  font-size:16px
+}
+.choice-card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 8px 20px rgba(102,126,234,0.4)
+}
+.choice-card.selected{
+  border:3px solid #fff;
+  background:linear-gradient(135deg,#764ba2 0%,#667eea 100%)
+}
+.emoji{
+  font-size:32px;
+  margin-bottom:8px;
+  display:block
+}
+.start-btn{
+  background:#4caf50;
+  color:white;
+  padding:15px 40px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:18px;
+  font-weight:bold;
+  transition:all 0.3s;
+  margin-top:20px
+}
+.start-btn:hover{
+  background:#45a049;
+  transform:scale(1.05)
+}
+.start-btn:disabled{
+  background:#ccc;
+  cursor:not-allowed;
+  transform:scale(1)
+}
 </style>
 </head>
 
 <body>
 
 <div class="container">
-  <div class="header">
-    <h2 class="title">🏆 PE Ultimate Quiz</h2>
-    <div class="progress-bar">
-      <div class="progress-fill" id="progressFill"></div>
+  <!-- SETUP SCREEN -->
+  <div id="setupScreen" class="setup-screen">
+    <div class="setup-title">🎯 Select Question Type</div>
+    <div class="setup-subtitle">Choose what you'd like to practice</div>
+    
+    <div class="choice-grid">
+      <div class="choice-card" onclick="selectType('mcq')">
+        <span class="emoji">📝</span>
+        Multiple Choice<br>(MCQ)
+      </div>
+      <div class="choice-card" onclick="selectType('quiz')">
+        <span class="emoji">✍️</span>
+        Long Answer<br>(Essay)
+      </div>
     </div>
-    <div class="progress-text" id="progressText"></div>
-  </div>
-
-  <span class="topic-badge" id="topic"></span>
-  
-  <div class="question-box">
-    <div class="question-text" id="question"></div>
-  </div>
-
-  <div id="mcq"></div>
-
-  <div id="longDiv" class="long-answer-box" style="display:none">
-    <textarea id="longAns" placeholder="Type your answer..."></textarea>
-    <button class="submit-btn" onclick="checkLong()">Submit Answer</button>
-  </div>
-
-  <div id="messageDisplay"></div>
-
-  <div id="autoAdvanceMsg" class="auto-advance" style="display:none">
-    ⏱️ Moving to next question in <span id="countdown">3</span>s...
-  </div>
-
-  <div class="stats">
-    <div class="stat-box">
-      <div class="stat-value" id="score">0</div>
-      <div class="stat-label">Score</div>
+    
+    <div class="choice-grid">
+      <div class="choice-card" onclick="selectType('mixed')">
+        <span class="emoji">🔀</span>
+        Mixed<br>(All Types)
+      </div>
+      <div class="choice-card" onclick="selectType('balanced')">
+        <span class="emoji">⚖️</span>
+        Balanced<br>(Smart Mix)
+      </div>
     </div>
-    <div class="stat-box">
-      <div class="stat-value" id="weakTopic">-</div>
-      <div class="stat-label">Weak Area</div>
+
+    <button class="start-btn" id="startBtn" onclick="startQuiz()" disabled>Start Quiz ▶️</button>
+  </div>
+
+  <!-- QUIZ SCREEN -->
+  <div id="quizScreen" style="display:none">
+    <div class="header">
+      <h2 class="title">🏆 PE Ultimate Quiz</h2>
+      <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+      <div class="progress-text" id="progressText"></div>
+    </div>
+
+    <span class="topic-badge" id="topic"></span>
+    
+    <div class="question-box">
+      <div class="question-text" id="question"></div>
+    </div>
+
+    <div id="mcq"></div>
+
+    <div id="longDiv" class="long-answer-box" style="display:none">
+      <textarea id="longAns" placeholder="Type your answer (or leave blank to see answer)..."></textarea>
+      <button class="submit-btn" onclick="checkLong()">Submit Answer</button>
+    </div>
+
+    <div class="answer-box" id="answerBox">
+      <div class="answer-label">📖 Expected Answer:</div>
+      <div class="answer-text" id="answerText"></div>
+    </div>
+
+    <div id="messageDisplay"></div>
+
+    <div id="autoAdvanceMsg" class="auto-advance" style="display:none">
+      ⏱️ Moving to next question in <span id="countdown">3</span>s...
+    </div>
+
+    <div class="nav-buttons" id="navButtons">
+      <button class="prev-btn" id="prevBtn" onclick="prevQ()">⬅️ Previous</button>
+      <button class="next-btn" id="nextBtn" onclick="nextQ()">Next ➡️</button>
+    </div>
+
+    <div class="stats">
+      <div class="stat-box">
+        <div class="stat-value" id="score">0</div>
+        <div class="stat-label">Score</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-value" id="weakTopic">-</div>
+        <div class="stat-label">Weak Area</div>
+      </div>
     </div>
   </div>
 </div>
