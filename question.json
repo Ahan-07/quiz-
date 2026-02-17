@@ -1,4 +1,74 @@
 [
+{"type":"mcq","topic":"CWSN","q":"Who founded Special Olympics?","options":["Pierre de Coubertin","Eunice Kennedy Shriver","Ludwig Guttmann","Nelson Mandela"],"answer":1},
+
+{"type":"mcq","topic":"CWSN","q":"Minimum age to participate in Special Olympics is?","options":["5 years","6 years","7 years","8 years"],"answer":3},
+
+{"type":"mcq","topic":"CWSN","q":"Inclusion in sports means?","options":["Separate training","Equal participation","Medical care","Competition only"],"answer":1},
+
+{"type":"mcq","topic":"Training","q":"Fartlek training is also known as?","options":["Interval training","Speed play","Circuit training","Pace training"],"answer":1},
+
+{"type":"mcq","topic":"Training","q":"Which training alternates fast and slow running?","options":["Continuous","Fartlek","Weight","Circuit"],"answer":1},
+
+{"type":"mcq","topic":"Training","q":"Isometric exercise involves?","options":["Visible movement","No movement","Jumping","Running"],"answer":1},
+
+{"type":"mcq","topic":"Biomechanics","q":"A golf ball remains at rest until struck. This shows?","options":["Law of inertia","Law of reaction","Law of gravity","Law of friction"],"answer":0},
+
+{"type":"mcq","topic":"Biomechanics","q":"Force equals mass × acceleration refers to?","options":["Newton’s 1st law","Newton’s 2nd law","Newton’s 3rd law","Law of gravity"],"answer":1},
+
+{"type":"mcq","topic":"Biomechanics","q":"Every action has equal reaction is?","options":["1st law","2nd law","3rd law","Law of motion"],"answer":2},
+
+{"type":"mcq","topic":"Biomechanics","q":"Best angle for maximum projectile range?","options":["30°","45°","60°","90°"],"answer":1},
+
+{"type":"mcq","topic":"Nutrition","q":"Scientific name of Vitamin C?","options":["Citric acid","Ascorbic acid","Lactic acid","Folic acid"],"answer":1},
+
+{"type":"mcq","topic":"Nutrition","q":"Deficiency of Vitamin D causes?","options":["Scurvy","Rickets","Anemia","Night blindness"],"answer":1},
+
+{"type":"mcq","topic":"Nutrition","q":"BMI formula is?","options":["W/H","W/H²","H/W","H²/W"],"answer":1},
+
+{"type":"mcq","topic":"Nutrition","q":"BMI 31 is classified as?","options":["Obese","Normal","Underweight","Athletic"],"answer":0},
+
+{"type":"mcq","topic":"Nutrition","q":"Iron deficiency causes?","options":["Anemia","Diabetes","Obesity","Rickets"],"answer":0},
+
+{"type":"mcq","topic":"Yoga","q":"Suryabhedan Pranayama is recommended for?","options":["Obesity","Hypertension","Asthma","Back pain"],"answer":2},
+
+{"type":"mcq","topic":"Yoga","q":"Paschimottanasana is a?","options":["Backward bend","Forward bend sitting","Standing twist","Balancing pose"],"answer":1},
+
+{"type":"mcq","topic":"Yoga","q":"Kapalbhati mainly improves?","options":["Digestion","Height","Vision","Hearing"],"answer":0},
+
+{"type":"mcq","topic":"Psychology","q":"Big Five includes?","options":["Motivation","Anxiety","Openness","Aggression"],"answer":2},
+
+{"type":"mcq","topic":"Psychology","q":"Neuroticism relates to?","options":["Calmness","Confidence","Anxiety","Strength"],"answer":2},
+
+{"type":"mcq","topic":"Psychology","q":"Friendly and trustworthy trait is?","options":["Openness","Agreeableness","Neuroticism","Extroversion"],"answer":1},
+
+{"type":"mcq","topic":"Psychology","q":"Self-talk helps improve?","options":["Height","Confidence","Weight","Flexibility"],"answer":1},
+
+{"type":"mcq","topic":"Tournament","q":"Seeding means?","options":["Giving byes","Ranking teams","Fixing matches","Random draw"],"answer":1},
+
+{"type":"mcq","topic":"Tournament","q":"Formula for league matches?","options":["N²","N(N-1)/2","N/2","2N"],"answer":1},
+
+{"type":"mcq","topic":"Tournament","q":"Byes are given to?","options":["Weak teams","Strong teams","All teams","Random"],"answer":1},
+
+{"type":"mcq","topic":"Test","q":"Sit & Reach test measures?","options":["Speed","Strength","Flexibility","Endurance"],"answer":2},
+
+{"type":"mcq","topic":"Test","q":"Chair Stand test measures?","options":["Flexibility","Lower body strength","Speed","Balance"],"answer":1},
+
+{"type":"mcq","topic":"Test","q":"Rikli & Jones test is for?","options":["Children","Athletes","Senior citizens","Coaches"],"answer":2},
+
+{"type":"mcq","topic":"Injuries","q":"RICE stands for?","options":["Run Ice Compress Elevate","Rest Ice Compress Elevate","Rest Injury Care Exercise","Run Injury Care Elevate"],"answer":1},
+
+{"type":"mcq","topic":"Injuries","q":"Greenstick fracture common in?","options":["Adults","Children","Elderly","Athletes"],"answer":1},
+
+{"type":"mcq","topic":"Women","q":"Female Athlete Triad includes?","options":["Obesity","Amenorrhea","Hypertension","Diabetes"],"answer":1},
+
+{"type":"mcq","topic":"Women","q":"Osteoporosis means?","options":["Strong bones","Weak bones","Muscle pain","Joint pain"],"answer":1},
+
+{"type":"mcq","topic":"Posture","q":"Knock-knee is related to?","options":["Arms","Legs","Spine","Neck"],"answer":1},
+
+{"type":"mcq","topic":"Posture","q":"Bow legs deformity affects?","options":["Hands","Legs","Back","Shoulders"],"answer":1},
+
+{"type":"mcq","topic":"Psychology","q":"Hostile aggression aims to?","options":["Win","Harm","Compete","Defend"],"answer":1}
+,
 {"type":"mcq","topic":"Nutrition","q":"A student with BMI 31 is classified as?","options":["Obese","Normal","Underweight"],"answer":0},
 {"type":"mcq","topic":"Women","q":"Athlete skips meals and has no periods. Condition?","options":["Female triad","Obesity","Anemia"],"answer":0},
 {"type":"mcq","topic":"Training","q":"Runner alternates speed during training. Method?","options":["Fartlek","Isometric","Isokinetic"],"answer":0},
@@ -215,105 +285,105 @@
 {"type":"mcq","topic":"Training","q":"Explain methods to develop flexibility.","options":["Static, dynamic and PNF stretching improve joint range","Only weight lifting develops flexibility","Flexibility cannot be improved with training"],"answer":0}
 
 ,
-{"type":"short","topic":"Management","q":"Define planning in sports.","answer":"Planning is deciding in advance the objectives, procedures and schedules for conducting a sports event smoothly."},
+{"type":"long","topic":"Management","q":"Define planning in sports.","answer":"Planning is deciding in advance the objectives, procedures and schedules for conducting a sports event smoothly."},
 
-{"type":"short","topic":"Management","q":"Define intramural tournament.","answer":"Intramural tournaments are competitions conducted within the same institution to promote mass participation."},
+{"type":"long","topic":"Management","q":"Define intramural tournament.","answer":"Intramural tournaments are competitions conducted within the same institution to promote mass participation."},
 
 {"type":"long","topic":"Management","q":"Intramural vs Extramural.","answer":"Intramural is within an institution and focuses on participation. Extramural is between institutions and focuses on competition and performance."},
 
-{"type":"short","topic":"Management","q":"What is seeding?","answer":"Seeding is placing strong teams in separate groups so they do not meet early."},
+{"type":"long","topic":"Management","q":"What is seeding?","answer":"Seeding is placing strong teams in separate groups so they do not meet early."},
 
-{"type":"short","topic":"Management","q":"League formula?","answer":"Number of matches = N(N-1)/2."},
+{"type":"long","topic":"Management","q":"League formula?","answer":"Number of matches = N(N-1)/2."},
 
-{"type":"short","topic":"Women","q":"Define Female Athlete Triad.","answer":"A condition involving eating disorder, amenorrhea and osteoporosis."},
+{"type":"long","topic":"Women","q":"Define Female Athlete Triad.","answer":"A condition involving eating disorder, amenorrhea and osteoporosis."},
 
-{"type":"short","topic":"Women","q":"What is amenorrhea?","answer":"Absence of menstrual cycle in females."},
+{"type":"long","topic":"Women","q":"What is amenorrhea?","answer":"Absence of menstrual cycle in females."},
 
 {"type":"long","topic":"Women","q":"Causes of low women participation.","answer":"Social barriers, safety concerns, lack of facilities, family restrictions and gender bias."},
 
-{"type":"short","topic":"Women","q":"What is osteoporosis?","answer":"A condition of weak and brittle bones."},
+{"type":"long","topic":"Women","q":"What is osteoporosis?","answer":"A condition of weak and brittle bones."},
 
-{"type":"short","topic":"Women","q":"Name one eating disorder.","answer":"Anorexia nervosa."},
+{"type":"long","topic":"Women","q":"Name one eating disorder.","answer":"Anorexia nervosa."},
 
-{"type":"short","topic":"Yoga","q":"Benefit of Kapalbhati.","answer":"Improves digestion and respiratory efficiency."},
+{"type":"long","topic":"Yoga","q":"Benefit of Kapalbhati.","answer":"Improves digestion and respiratory efficiency."},
 
-{"type":"short","topic":"Yoga","q":"Define pranayama.","answer":"Controlled breathing techniques in yoga."},
+{"type":"long","topic":"Yoga","q":"Define pranayama.","answer":"Controlled breathing techniques in yoga."},
 
-{"type":"short","topic":"Yoga","q":"Contraindication means?","answer":"A condition where an exercise should be avoided."},
+{"type":"long","topic":"Yoga","q":"Contraindication means?","answer":"A condition where an exercise should be avoided."},
 
 {"type":"long","topic":"Yoga","q":"Role of yoga in prevention.","answer":"Yoga reduces stress, improves immunity, controls BP and prevents lifestyle diseases."},
 
-{"type":"short","topic":"Yoga","q":"Pavanmuktasana helps in?","answer":"Relieving gas and improving digestion."},
+{"type":"long","topic":"Yoga","q":"Pavanmuktasana helps in?","answer":"Relieving gas and improving digestion."},
 
-{"type":"short","topic":"CWSN","q":"Define inclusion.","answer":"Equal participation of children with special needs in regular activities."},
+{"type":"long","topic":"CWSN","q":"Define inclusion.","answer":"Equal participation of children with special needs in regular activities."},
 
-{"type":"short","topic":"CWSN","q":"Who founded Special Olympics?","answer":"Eunice Kennedy Shriver."},
+{"type":"long","topic":"CWSN","q":"Who founded Special Olympics?","answer":"Eunice Kennedy Shriver."},
 
-{"type":"short","topic":"CWSN","q":"What is classification?","answer":"Grouping athletes based on ability."},
+{"type":"long","topic":"CWSN","q":"What is classification?","answer":"Grouping athletes based on ability."},
 
 {"type":"long","topic":"CWSN","q":"Advantages of sports for CWSN.","answer":"Improves confidence, social skills, fitness and independence."},
 
-{"type":"short","topic":"CWSN","q":"Maximum effort rule?","answer":"Athlete must give best performance honestly."},
+{"type":"long","topic":"CWSN","q":"Maximum effort rule?","answer":"Athlete must give best performance honestly."},
 
-{"type":"short","topic":"Nutrition","q":"Define balanced diet.","answer":"Diet containing all nutrients in correct proportion."},
+{"type":"long","topic":"Nutrition","q":"Define balanced diet.","answer":"Diet containing all nutrients in correct proportion."},
 
-{"type":"short","topic":"Nutrition","q":"BMI formula.","answer":"BMI = Weight(kg)/Height²(m)."},
+{"type":"long","topic":"Nutrition","q":"BMI formula.","answer":"BMI = Weight(kg)/Height²(m)."},
 
-{"type":"short","topic":"Nutrition","q":"Function of protein.","answer":"Growth and repair of tissues."},
+{"type":"long","topic":"Nutrition","q":"Function of protein.","answer":"Growth and repair of tissues."},
 
 {"type":"long","topic":"Nutrition","q":"Role of nutrition in sports.","answer":"Provides energy, aids recovery, supports muscle growth and improves performance."},
 
-{"type":"short","topic":"Nutrition","q":"Iron deficiency causes?","answer":"Anemia."},
+{"type":"long","topic":"Nutrition","q":"Iron deficiency causes?","answer":"Anemia."},
 
-{"type":"short","topic":"Test","q":"Sit and Reach measures?","answer":"Flexibility."},
+{"type":"long","topic":"Test","q":"Sit and Reach measures?","answer":"Flexibility."},
 
-{"type":"short","topic":"Test","q":"Chair stand test measures?","answer":"Lower body strength."},
+{"type":"long","topic":"Test","q":"Chair stand test measures?","answer":"Lower body strength."},
 
-{"type":"short","topic":"Test","q":"6-minute walk test measures?","answer":"Endurance."},
+{"type":"long","topic":"Test","q":"6-minute walk test measures?","answer":"Endurance."},
 
 {"type":"long","topic":"Test","q":"Importance of fitness testing.","answer":"Helps assess fitness level, monitor progress and plan training."},
 
-{"type":"short","topic":"Test","q":"Rikli & Jones test for?","answer":"Senior citizen fitness."},
+{"type":"long","topic":"Test","q":"Rikli & Jones test for?","answer":"Senior citizen fitness."},
 
-{"type":"short","topic":"Injuries","q":"Define sprain.","answer":"Injury to ligament."},
+{"type":"long","topic":"Injuries","q":"Define sprain.","answer":"Injury to ligament."},
 
-{"type":"short","topic":"Injuries","q":"Define strain.","answer":"Injury to muscle or tendon."},
+{"type":"long","topic":"Injuries","q":"Define strain.","answer":"Injury to muscle or tendon."},
 
-{"type":"short","topic":"Injuries","q":"Greenstick fracture common in?","answer":"Children."},
+{"type":"long","topic":"Injuries","q":"Greenstick fracture common in?","answer":"Children."},
 
 {"type":"long","topic":"Injuries","q":"RICE method.","answer":"Rest, Ice, Compression, Elevation."},
 
-{"type":"short","topic":"Injuries","q":"Soft tissue injury example.","answer":"Sprain."},
+{"type":"long","topic":"Injuries","q":"Soft tissue injury example.","answer":"Sprain."},
 
-{"type":"short","topic":"Biomechanics","q":"Define biomechanics.","answer":"Study of movement and forces on the body."},
+{"type":"long","topic":"Biomechanics","q":"Define biomechanics.","answer":"Study of movement and forces on the body."},
 
-{"type":"short","topic":"Biomechanics","q":"Newton’s 1st law.","answer":"Law of inertia."},
+{"type":"long","topic":"Biomechanics","q":"Newton’s 1st law.","answer":"Law of inertia."},
 
-{"type":"short","topic":"Biomechanics","q":"Newton’s 2nd law.","answer":"Force equals mass × acceleration."},
+{"type":"long","topic":"Biomechanics","q":"Newton’s 2nd law.","answer":"Force equals mass × acceleration."},
 
 {"type":"long","topic":"Biomechanics","q":"Projectile factors.","answer":"Angle, velocity and gravity affect projectile motion."},
 
-{"type":"short","topic":"Biomechanics","q":"Best projectile angle.","answer":"45 degrees."},
+{"type":"long","topic":"Biomechanics","q":"Best projectile angle.","answer":"45 degrees."},
 
-{"type":"short","topic":"Psychology","q":"Define motivation.","answer":"Inner drive to achieve goals."},
+{"type":"long","topic":"Psychology","q":"Define motivation.","answer":"Inner drive to achieve goals."},
 
-{"type":"short","topic":"Psychology","q":"Self-talk means?","answer":"Talking to oneself positively."},
+{"type":"long","topic":"Psychology","q":"Self-talk means?","answer":"Talking to oneself positively."},
 
-{"type":"short","topic":"Psychology","q":"Goal setting helps in?","answer":"Improving focus and performance."},
+{"type":"long","topic":"Psychology","q":"Goal setting helps in?","answer":"Improving focus and performance."},
 
 {"type":"long","topic":"Psychology","q":"Big Five theory.","answer":"Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism."},
 
-{"type":"short","topic":"Psychology","q":"Anxiety affects?","answer":"Performance."},
+{"type":"long","topic":"Psychology","q":"Anxiety affects?","answer":"Performance."},
 
-{"type":"short","topic":"Training","q":"Define strength.","answer":"Ability to exert force."},
+{"type":"long","topic":"Training","q":"Define strength.","answer":"Ability to exert force."},
 
-{"type":"short","topic":"Training","q":"Define endurance.","answer":"Ability to sustain effort."},
+{"type":"long","topic":"Training","q":"Define endurance.","answer":"Ability to sustain effort."},
 
-{"type":"short","topic":"Training","q":"Fartlek training.","answer":"Training with varied speed running."},
+{"type":"long","topic":"Training","q":"Fartlek training.","answer":"Training with varied speed running."},
 
 {"type":"long","topic":"Training","q":"Methods to develop flexibility.","answer":"Static stretching, dynamic stretching and PNF stretching."},
 
-{"type":"short","topic":"Training","q":"Warm-up prevents?","answer":"Injury."}
+{"type":"long","topic":"Training","q":"Warm-up prevents?","answer":"Injury."}
 ,
 {
 "type":"quiz",
@@ -463,105 +533,105 @@
 }
 ,
 
-{"type":"short","topic":"Management","q":"Define planning in sports.","answer":"Planning in sports means deciding in advance the objectives, schedule, resources and responsibilities for conducting a sports event successfully."},
+{"type":"long","topic":"Management","q":"Define planning in sports.","answer":"Planning in sports means deciding in advance the objectives, schedule, resources and responsibilities for conducting a sports event successfully."},
 
-{"type":"short","topic":"Management","q":"State any two objectives of planning.","answer":"Objectives include smooth conduct of the event and proper utilization of time, money and manpower."},
+{"type":"long","topic":"Management","q":"State any two objectives of planning.","answer":"Objectives include smooth conduct of the event and proper utilization of time, money and manpower."},
 
-{"type":"short","topic":"Management","q":"Define intramural tournaments.","answer":"Intramural tournaments are competitions organized within the same institution to promote participation and recreation."},
+{"type":"long","topic":"Management","q":"Define intramural tournaments.","answer":"Intramural tournaments are competitions organized within the same institution to promote participation and recreation."},
 
-{"type":"short","topic":"Management","q":"Define extramural tournaments.","answer":"Extramural tournaments are competitions between different institutions focusing on performance and competition."},
+{"type":"long","topic":"Management","q":"Define extramural tournaments.","answer":"Extramural tournaments are competitions between different institutions focusing on performance and competition."},
 
-{"type":"short","topic":"Management","q":"What is a knockout tournament?","answer":"A knockout tournament is a competition where the losing team is eliminated after each match."},
+{"type":"long","topic":"Management","q":"What is a knockout tournament?","answer":"A knockout tournament is a competition where the losing team is eliminated after each match."},
 
-{"type":"short","topic":"Management","q":"Write the formula for league matches.","answer":"Number of matches = N(N-1)/2 where N is number of teams."},
+{"type":"long","topic":"Management","q":"Write the formula for league matches.","answer":"Number of matches = N(N-1)/2 where N is number of teams."},
 
-{"type":"short","topic":"Women","q":"What is Female Athlete Triad?","answer":"Female Athlete Triad is a condition involving eating disorder, amenorrhea and osteoporosis caused by low energy availability."},
+{"type":"long","topic":"Women","q":"What is Female Athlete Triad?","answer":"Female Athlete Triad is a condition involving eating disorder, amenorrhea and osteoporosis caused by low energy availability."},
 
-{"type":"short","topic":"Women","q":"Define amenorrhea.","answer":"Amenorrhea is the absence of menstrual periods in females."},
+{"type":"long","topic":"Women","q":"Define amenorrhea.","answer":"Amenorrhea is the absence of menstrual periods in females."},
 
-{"type":"short","topic":"Women","q":"What is osteoporosis?","answer":"Osteoporosis is a condition where bones become weak and brittle due to low bone density."},
+{"type":"long","topic":"Women","q":"What is osteoporosis?","answer":"Osteoporosis is a condition where bones become weak and brittle due to low bone density."},
 
-{"type":"short","topic":"Women","q":"Mention two causes of low participation of women.","answer":"Lack of family support and social stereotypes reduce women's participation."},
+{"type":"long","topic":"Women","q":"Mention two causes of low participation of women.","answer":"Lack of family support and social stereotypes reduce women's participation."},
 
-{"type":"short","topic":"Yoga","q":"State two benefits of Kapalbhati.","answer":"It improves digestion and strengthens the respiratory system."},
+{"type":"long","topic":"Yoga","q":"State two benefits of Kapalbhati.","answer":"It improves digestion and strengthens the respiratory system."},
 
-{"type":"short","topic":"Yoga","q":"Define pranayama.","answer":"Pranayama is the practice of controlled breathing techniques in yoga."},
+{"type":"long","topic":"Yoga","q":"Define pranayama.","answer":"Pranayama is the practice of controlled breathing techniques in yoga."},
 
-{"type":"short","topic":"Yoga","q":"What are lifestyle diseases?","answer":"Lifestyle diseases are illnesses caused by unhealthy habits like poor diet and lack of exercise."},
+{"type":"long","topic":"Yoga","q":"What are lifestyle diseases?","answer":"Lifestyle diseases are illnesses caused by unhealthy habits like poor diet and lack of exercise."},
 
-{"type":"short","topic":"Yoga","q":"Name one asana for hypertension.","answer":"Tadasana helps in controlling hypertension."},
+{"type":"long","topic":"Yoga","q":"Name one asana for hypertension.","answer":"Tadasana helps in controlling hypertension."},
 
-{"type":"short","topic":"Yoga","q":"What is a contraindication?","answer":"A contraindication is a condition where a particular exercise should be avoided."},
+{"type":"long","topic":"Yoga","q":"What is a contraindication?","answer":"A contraindication is a condition where a particular exercise should be avoided."},
 
-{"type":"short","topic":"CWSN","q":"Define inclusion.","answer":"Inclusion means providing equal opportunities for children with special needs in regular sports."},
+{"type":"long","topic":"CWSN","q":"Define inclusion.","answer":"Inclusion means providing equal opportunities for children with special needs in regular sports."},
 
-{"type":"short","topic":"CWSN","q":"Who founded Special Olympics?","answer":"Special Olympics was founded by Eunice Kennedy Shriver."},
+{"type":"long","topic":"CWSN","q":"Who founded Special Olympics?","answer":"Special Olympics was founded by Eunice Kennedy Shriver."},
 
-{"type":"short","topic":"CWSN","q":"What is classification?","answer":"Classification is grouping athletes based on ability or disability type."},
+{"type":"long","topic":"CWSN","q":"What is classification?","answer":"Classification is grouping athletes based on ability or disability type."},
 
-{"type":"short","topic":"CWSN","q":"What is divisioning?","answer":"Divisioning is grouping players of similar ability for fair competition."},
+{"type":"long","topic":"CWSN","q":"What is divisioning?","answer":"Divisioning is grouping players of similar ability for fair competition."},
 
-{"type":"short","topic":"CWSN","q":"State one benefit of sports for CWSN.","answer":"Sports improve confidence and social interaction in CWSN."},
+{"type":"long","topic":"CWSN","q":"State one benefit of sports for CWSN.","answer":"Sports improve confidence and social interaction in CWSN."},
 
-{"type":"short","topic":"Nutrition","q":"Define balanced diet.","answer":"A balanced diet contains all nutrients in the right proportion for proper body function."},
+{"type":"long","topic":"Nutrition","q":"Define balanced diet.","answer":"A balanced diet contains all nutrients in the right proportion for proper body function."},
 
-{"type":"short","topic":"Nutrition","q":"Write BMI formula.","answer":"BMI = Weight in kg divided by height in meters squared."},
+{"type":"long","topic":"Nutrition","q":"Write BMI formula.","answer":"BMI = Weight in kg divided by height in meters squared."},
 
-{"type":"short","topic":"Nutrition","q":"State one function of protein.","answer":"Protein helps in growth and repair of tissues."},
+{"type":"long","topic":"Nutrition","q":"State one function of protein.","answer":"Protein helps in growth and repair of tissues."},
 
-{"type":"short","topic":"Nutrition","q":"Name one source of Vitamin D.","answer":"Sunlight is a major source of Vitamin D."},
+{"type":"long","topic":"Nutrition","q":"Name one source of Vitamin D.","answer":"Sunlight is a major source of Vitamin D."},
 
-{"type":"short","topic":"Nutrition","q":"What is anemia?","answer":"Anemia is a condition caused by iron deficiency leading to low hemoglobin."},
+{"type":"long","topic":"Nutrition","q":"What is anemia?","answer":"Anemia is a condition caused by iron deficiency leading to low hemoglobin."},
 
-{"type":"short","topic":"Test","q":"What does Sit and Reach test measure?","answer":"It measures flexibility of lower back and hamstrings."},
+{"type":"long","topic":"Test","q":"What does Sit and Reach test measure?","answer":"It measures flexibility of lower back and hamstrings."},
 
-{"type":"short","topic":"Test","q":"What is the purpose of fitness testing?","answer":"It helps assess fitness level and monitor improvement."},
+{"type":"long","topic":"Test","q":"What is the purpose of fitness testing?","answer":"It helps assess fitness level and monitor improvement."},
 
-{"type":"short","topic":"Test","q":"What does chair stand test measure?","answer":"It measures lower body strength."},
+{"type":"long","topic":"Test","q":"What does chair stand test measure?","answer":"It measures lower body strength."},
 
-{"type":"short","topic":"Test","q":"What is Rikli & Jones test?","answer":"It is a fitness test for senior citizens."},
+{"type":"long","topic":"Test","q":"What is Rikli & Jones test?","answer":"It is a fitness test for senior citizens."},
 
-{"type":"short","topic":"Test","q":"Define endurance.","answer":"Endurance is the ability to sustain physical activity for a long time."},
+{"type":"long","topic":"Test","q":"Define endurance.","answer":"Endurance is the ability to sustain physical activity for a long time."},
 
-{"type":"short","topic":"Injuries","q":"Define sprain.","answer":"A sprain is an injury to ligaments caused by overstretching."},
+{"type":"long","topic":"Injuries","q":"Define sprain.","answer":"A sprain is an injury to ligaments caused by overstretching."},
 
-{"type":"short","topic":"Injuries","q":"Define strain.","answer":"A strain is an injury to muscles or tendons."},
+{"type":"long","topic":"Injuries","q":"Define strain.","answer":"A strain is an injury to muscles or tendons."},
 
-{"type":"short","topic":"Injuries","q":"What is a fracture?","answer":"A fracture is a break in the bone."},
+{"type":"long","topic":"Injuries","q":"What is a fracture?","answer":"A fracture is a break in the bone."},
 
-{"type":"short","topic":"Injuries","q":"Explain RICE.","answer":"RICE stands for Rest, Ice, Compression and Elevation used for injury care."},
+{"type":"long","topic":"Injuries","q":"Explain RICE.","answer":"RICE stands for Rest, Ice, Compression and Elevation used for injury care."},
 
-{"type":"short","topic":"Injuries","q":"What is a soft tissue injury?","answer":"An injury involving muscles, ligaments or tendons."},
+{"type":"long","topic":"Injuries","q":"What is a soft tissue injury?","answer":"An injury involving muscles, ligaments or tendons."},
 
-{"type":"short","topic":"Biomechanics","q":"Define biomechanics.","answer":"Biomechanics is the study of forces and movement in the human body."},
+{"type":"long","topic":"Biomechanics","q":"Define biomechanics.","answer":"Biomechanics is the study of forces and movement in the human body."},
 
-{"type":"short","topic":"Biomechanics","q":"State Newton’s First Law.","answer":"A body remains at rest or motion unless acted upon by external force."},
+{"type":"long","topic":"Biomechanics","q":"State Newton’s First Law.","answer":"A body remains at rest or motion unless acted upon by external force."},
 
-{"type":"short","topic":"Biomechanics","q":"State Newton’s Second Law.","answer":"Force equals mass multiplied by acceleration."},
+{"type":"long","topic":"Biomechanics","q":"State Newton’s Second Law.","answer":"Force equals mass multiplied by acceleration."},
 
-{"type":"short","topic":"Biomechanics","q":"State Newton’s Third Law.","answer":"Every action has an equal and opposite reaction."},
+{"type":"long","topic":"Biomechanics","q":"State Newton’s Third Law.","answer":"Every action has an equal and opposite reaction."},
 
-{"type":"short","topic":"Biomechanics","q":"What is friction?","answer":"Friction is the force resisting motion between surfaces."},
+{"type":"long","topic":"Biomechanics","q":"What is friction?","answer":"Friction is the force resisting motion between surfaces."},
 
-{"type":"short","topic":"Psychology","q":"Define motivation.","answer":"Motivation is the inner drive to achieve goals."},
+{"type":"long","topic":"Psychology","q":"Define motivation.","answer":"Motivation is the inner drive to achieve goals."},
 
-{"type":"short","topic":"Psychology","q":"What is self-talk?","answer":"Self-talk is talking to oneself positively to boost confidence."},
+{"type":"long","topic":"Psychology","q":"What is self-talk?","answer":"Self-talk is talking to oneself positively to boost confidence."},
 
-{"type":"short","topic":"Psychology","q":"Define anxiety.","answer":"Anxiety is a feeling of nervousness affecting performance."},
+{"type":"long","topic":"Psychology","q":"Define anxiety.","answer":"Anxiety is a feeling of nervousness affecting performance."},
 
-{"type":"short","topic":"Psychology","q":"Name two Big Five traits.","answer":"Openness and Conscientiousness are two traits."},
+{"type":"long","topic":"Psychology","q":"Name two Big Five traits.","answer":"Openness and Conscientiousness are two traits."},
 
-{"type":"short","topic":"Psychology","q":"What is goal setting?","answer":"Goal setting is defining clear targets to improve performance."},
+{"type":"long","topic":"Psychology","q":"What is goal setting?","answer":"Goal setting is defining clear targets to improve performance."},
 
-{"type":"short","topic":"Training","q":"Define strength.","answer":"Strength is the ability to exert force."},
+{"type":"long","topic":"Training","q":"Define strength.","answer":"Strength is the ability to exert force."},
 
-{"type":"short","topic":"Training","q":"Define flexibility.","answer":"Flexibility is the range of motion at a joint."},
+{"type":"long","topic":"Training","q":"Define flexibility.","answer":"Flexibility is the range of motion at a joint."},
 
-{"type":"short","topic":"Training","q":"What is Fartlek training?","answer":"Fartlek training is a mix of fast and slow running."},
+{"type":"long","topic":"Training","q":"What is Fartlek training?","answer":"Fartlek training is a mix of fast and slow running."},
 
-{"type":"short","topic":"Training","q":"What is warm-up?","answer":"Warm-up prepares the body for activity and prevents injury."},
+{"type":"long","topic":"Training","q":"What is warm-up?","answer":"Warm-up prepares the body for activity and prevents injury."},
 
-{"type":"short","topic":"Training","q":"What is endurance?","answer":"Endurance is the ability to continue activity for long duration."}
+{"type":"long","topic":"Training","q":"What is endurance?","answer":"Endurance is the ability to continue activity for long duration."}
 ,
 {"type":"quiz","topic":"Management","q":"Explain the objectives of planning in sports.","answer":"Planning in sports aims to ensure smooth conduct of events, proper coordination among committees, efficient use of resources, time management and avoidance of confusion during competitions."},
 
@@ -662,4 +732,192 @@
 {"type":"quiz","topic":"Training","q":"Explain strength training.","answer":"Strength training uses resistance to build muscle power."},
 
 {"type":"quiz","topic":"Training","q":"Explain warm-up importance.","answer":"Warm-up increases blood flow and prevents injuries."}
+,
+{"type":"long","topic":"Yoga","q":"Role of yoga in prevention of lifestyle diseases.","answer":"Yoga reduces stress, improves immunity, controls blood pressure, manages diabetes and obesity, and promotes mental well-being, thereby preventing lifestyle diseases."},
+
+{"type":"long","topic":"Yoga","q":"Explain yoga for hypertension.","answer":"Yoga helps control hypertension by calming the nervous system, reducing stress and improving blood circulation. Asanas like Shavasana and Tadasana are beneficial."},
+
+{"type":"long","topic":"Yoga","q":"Explain yoga for obesity management.","answer":"Yoga improves metabolism, burns calories, reduces stress-related eating and promotes hormonal balance, helping in obesity control."},
+
+{"type":"long","topic":"Yoga","q":"Benefits of Kapalbhati.","answer":"Kapalbhati improves digestion, increases lung capacity, reduces belly fat and enhances concentration."},
+
+{"type":"long","topic":"Yoga","q":"Explain Pavanmuktasana.","answer":"Pavanmuktasana relieves gas, improves digestion, reduces back pain and massages abdominal organs."},
+
+{"type":"long","topic":"CWSN","q":"Explain inclusion in sports.","answer":"Inclusion means equal participation of children with special needs in regular sports. It builds confidence, social skills and equality."},
+
+{"type":"long","topic":"CWSN","q":"Benefits of sports for CWSN.","answer":"Sports improve coordination, confidence, social interaction, physical fitness and independence in CWSN."},
+
+{"type":"long","topic":"CWSN","q":"Explain strategies for inclusion.","answer":"Strategies include modifying equipment, adapting rules, peer support, accessible facilities and trained teachers."},
+
+{"type":"long","topic":"CWSN","q":"Explain Special Olympics.","answer":"Special Olympics provides sports opportunities for individuals with intellectual disabilities to develop confidence and skills."},
+
+{"type":"long","topic":"CWSN","q":"Explain classification and divisioning.","answer":"Classification groups athletes by disability type; divisioning groups them by ability level for fair competition."},
+
+{"type":"long","topic":"Nutrition","q":"Importance of diet during competition.","answer":"Proper diet provides energy, delays fatigue, maintains hydration and improves performance and recovery."},
+
+{"type":"long","topic":"Nutrition","q":"Explain BMI and its importance.","answer":"BMI is weight divided by height squared. It indicates whether a person is underweight, normal or obese."},
+
+{"type":"long","topic":"Nutrition","q":"Explain myths of dieting.","answer":"Diet myths include skipping meals and avoiding all fats. These harm metabolism and health."},
+
+{"type":"long","topic":"Nutrition","q":"Role of carbohydrates in sports.","answer":"Carbohydrates provide energy and maintain glycogen stores for endurance performance."},
+
+{"type":"long","topic":"Nutrition","q":"Role of hydration in sports.","answer":"Hydration regulates body temperature, prevents cramps and maintains performance."},
+
+{"type":"long","topic":"Training","q":"Explain Fartlek training.","answer":"Fartlek mixes fast and slow running to improve endurance and speed."},
+
+{"type":"long","topic":"Training","q":"Fartlek vs Interval training.","answer":"Fartlek is continuous with speed variation; interval includes planned rest periods."},
+
+{"type":"long","topic":"Training","q":"Explain circuit training.","answer":"Circuit training includes multiple exercise stations targeting different muscles with minimal rest."},
+
+{"type":"long","topic":"Training","q":"Methods to develop flexibility.","answer":"Flexibility is developed through static, dynamic and PNF stretching."},
+
+{"type":"long","topic":"Training","q":"Importance of warm-up.","answer":"Warm-up increases blood flow, prepares muscles and prevents injuries."},
+
+{"type":"long","topic":"Biomechanics","q":"Explain Newton’s First Law in sports.","answer":"Objects remain at rest or motion unless acted upon by force, like a football until kicked."},
+
+{"type":"long","topic":"Biomechanics","q":"Explain Newton’s Second Law.","answer":"Force equals mass times acceleration; more force gives greater acceleration."},
+
+{"type":"long","topic":"Biomechanics","q":"Explain Newton’s Third Law.","answer":"Every action has equal and opposite reaction, like pushing ground while jumping."},
+
+{"type":"long","topic":"Biomechanics","q":"Explain projectile motion.","answer":"Projectile motion depends on angle, velocity and gravity; 45° gives max range."},
+
+{"type":"long","topic":"Biomechanics","q":"Explain friction in sports.","answer":"Friction provides grip and stability but excess friction slows movement."},
+
+{"type":"long","topic":"Psychology","q":"Explain Big Five personality theory.","answer":"It includes openness, conscientiousness, extraversion, agreeableness and neuroticism."},
+
+{"type":"long","topic":"Psychology","q":"Explain self-talk.","answer":"Self-talk is positive internal dialogue that boosts confidence and focus."},
+
+{"type":"long","topic":"Psychology","q":"Explain motivation in sports.","answer":"Motivation is the inner drive that directs effort toward goals."},
+
+{"type":"long","topic":"Psychology","q":"Explain anxiety in sports.","answer":"Anxiety is nervousness that can reduce concentration and performance."},
+
+{"type":"long","topic":"Psychology","q":"Explain goal setting.","answer":"Goal setting provides direction and increases motivation and performance."},
+
+{"type":"long","topic":"Injuries","q":"Explain RICE method.","answer":"RICE stands for Rest, Ice, Compression and Elevation to reduce swelling."},
+
+{"type":"long","topic":"Injuries","q":"Explain fracture types.","answer":"Fractures include simple, compound, greenstick and comminuted."},
+
+{"type":"long","topic":"Injuries","q":"Explain sprain and strain.","answer":"Sprain affects ligaments; strain affects muscles or tendons."},
+
+{"type":"long","topic":"Injuries","q":"Injury prevention methods.","answer":"Proper warm-up, equipment and technique prevent injuries."},
+
+{"type":"long","topic":"Injuries","q":"Explain soft tissue injuries.","answer":"They involve muscles, tendons and ligaments like sprains and strains."},
+
+{"type":"long","topic":"Test","q":"Explain Sit and Reach test.","answer":"Measures flexibility of lower back and hamstrings."},
+
+{"type":"long","topic":"Test","q":"Explain Chair Stand test.","answer":"Measures lower body strength by repeated standing."},
+
+{"type":"long","topic":"Test","q":"Explain Rikli & Jones test.","answer":"It assesses senior citizens’ fitness."},
+
+{"type":"long","topic":"Test","q":"Explain Harvard Step Test.","answer":"It measures cardiovascular endurance using stepping and pulse rate."},
+
+{"type":"long","topic":"Test","q":"Importance of fitness testing.","answer":"It identifies strengths, weaknesses and progress."},
+
+{"type":"long","topic":"Tournament","q":"Explain seeding.","answer":"Seeding places strong teams separately to avoid early clash."},
+
+{"type":"long","topic":"Tournament","q":"Explain bye.","answer":"Bye allows a team to enter next round without playing."},
+
+{"type":"long","topic":"Tournament","q":"Explain knockout tournament.","answer":"Teams are eliminated after one loss."},
+
+{"type":"long","topic":"Tournament","q":"Explain league tournament.","answer":"Each team plays all others; best performer wins."},
+
+{"type":"long","topic":"Tournament","q":"Formula for league matches.","answer":"N(N-1)/2."},
+
+{"type":"long","topic":"Women","q":"Explain Female Athlete Triad.","answer":"It includes eating disorders, amenorrhea and osteoporosis due to energy deficiency."},
+
+{"type":"long","topic":"Women","q":"Corrective measures for knock-knee.","answer":"Exercises, proper diet and posture correction help."},
+
+{"type":"long","topic":"Women","q":"Corrective measures for bow legs.","answer":"Exercises and balanced nutrition help improve alignment."},
+
+{"type":"long","topic":"Women","q":"Explain scoliosis.","answer":"Sideways spine curvature managed by exercise and posture care."},
+
+{"type":"long","topic":"Women","q":"Low participation of women in sports.","answer":"Due to stereotypes, safety concerns and lack of support."},
+
+{"type":"long","topic":"Psychology","q":"Explain aggression types.","answer":"Hostile aggression aims to harm; instrumental aims to win."},
+
+{"type":"long","topic":"Psychology","q":"Hostile vs instrumental aggression.","answer":"Hostile intends harm; instrumental focuses on goal achievement."},
+
+{"type":"long","topic":"Training","q":"Explain endurance.","answer":"Ability to sustain effort for long time."},
+
+{"type":"long","topic":"Training","q":"Explain strength training.","answer":"Uses resistance to build muscle force."},
+
+{"type":"long","topic":"Training","q":"Explain interval training.","answer":"Alternates exercise and rest to build stamina."},
+
+{"type":"long","topic":"Nutrition","q":"Explain vitamin deficiencies.","answer":"Deficiencies cause diseases like rickets, scurvy and anemia."},
+
+{"type":"long","topic":"Nutrition","q":"Scientific name of Vitamin C.","answer":"Ascorbic acid."},
+
+{"type":"long","topic":"Nutrition","q":"Importance of proteins.","answer":"Proteins repair tissues and build muscles."},
+
+{"type":"long","topic":"Biomechanics","q":"Center of gravity in sports.","answer":"Point where body weight is balanced; affects stability."},
+
+{"type":"long","topic":"Biomechanics","q":"Momentum in sports.","answer":"Momentum is mass × velocity; important in collisions."},
+
+{"type":"long","topic":"CWSN","q":"Barriers for CWSN participation.","answer":"Lack of access, awareness and trained staff."},
+
+{"type":"long","topic":"Yoga","q":"Benefits of Tadasana.","answer":"Improves posture and balance."},
+
+{"type":"long","topic":"Yoga","q":"Benefits of Paschimottanasana.","answer":"Improves flexibility and digestion."},
+
+{"type":"long","topic":"Psychology","q":"Role of psychology in sports.","answer":"Helps manage stress, motivation and focus."}
+,
+{"type":"quiz","topic":"Tournament","q":"Explain the concept of seeding in tournaments.","answer":"Seeding is the method of placing strong teams in different positions of the fixture so they do not compete in early rounds. It ensures balanced competition and fairness."},
+
+{"type":"quiz","topic":"Tournament","q":"Explain the concept of bye in knockout tournaments.","answer":"A bye allows a team to enter the next round without playing a match. It is given when the number of teams is not a power of two."},
+
+{"type":"quiz","topic":"Tournament","q":"Explain how byes are calculated.","answer":"Byes are calculated by subtracting total teams from the next power of two. For example, if 11 teams participate, next power is 16, so byes = 5."},
+
+{"type":"quiz","topic":"Tournament","q":"Explain the importance of fixtures in tournaments.","answer":"Fixtures help organize matches systematically, avoid confusion and ensure smooth scheduling of games."},
+
+{"type":"quiz","topic":"CWSN","q":"Explain the concept of inclusion in physical education.","answer":"Inclusion ensures children with special needs participate equally in regular activities. It promotes equality, confidence and social development."},
+
+{"type":"quiz","topic":"CWSN","q":"Explain the role of Special Olympics.","answer":"Special Olympics provides sports opportunities to individuals with intellectual disabilities, helping them develop confidence, fitness and social skills."},
+
+{"type":"quiz","topic":"CWSN","q":"State the eligibility age for Special Olympics.","answer":"Children aged 8 years and above can participate in Special Olympics competitions."},
+
+{"type":"quiz","topic":"CWSN","q":"Explain classification in disability sports.","answer":"Classification groups athletes based on ability or disability type to ensure fair competition."},
+
+{"type":"quiz","topic":"CWSN","q":"Explain divisioning in Special Olympics.","answer":"Divisioning groups athletes with similar ability levels so that competition remains fair."},
+
+{"type":"quiz","topic":"Training","q":"Explain the effect of exercise on muscular system.","answer":"Exercise increases muscle size, strength, endurance and improves blood supply to muscles."},
+
+{"type":"quiz","topic":"Training","q":"Explain the effect of exercise on cardiovascular system.","answer":"Exercise strengthens the heart, improves blood circulation and increases oxygen supply to tissues."},
+
+{"type":"quiz","topic":"Training","q":"Explain Fartlek training.","answer":"Fartlek training is a speed-play method where fast and slow running are mixed to improve endurance and speed."},
+
+{"type":"quiz","topic":"Training","q":"Differentiate between Fartlek and Interval training.","answer":"Fartlek involves continuous speed variation without fixed rest, while interval training includes planned rest periods between work bouts."},
+
+{"type":"quiz","topic":"Yoga","q":"Explain yoga for hypertension.","answer":"Yoga reduces stress, calms the nervous system and improves blood circulation, helping to control blood pressure."},
+
+{"type":"quiz","topic":"Yoga","q":"Explain yoga for obesity.","answer":"Yoga improves metabolism, burns calories and reduces stress eating, helping manage obesity."},
+
+{"type":"quiz","topic":"Yoga","q":"Explain the role of yoga in lifestyle diseases.","answer":"Yoga prevents lifestyle diseases by improving immunity, reducing stress, controlling BP and maintaining healthy body weight."},
+
+{"type":"quiz","topic":"Yoga","q":"Explain the benefits of Kapalbhati.","answer":"Kapalbhati improves digestion, increases lung efficiency, reduces fat and enhances concentration."},
+
+{"type":"quiz","topic":"Fitness Test","q":"Explain Sit and Reach test procedure.","answer":"The subject sits with legs straight and reaches forward. The distance reached measures flexibility of lower back and hamstrings."},
+
+{"type":"quiz","topic":"Fitness Test","q":"Explain Rikli & Jones fitness test.","answer":"Rikli & Jones test measures strength, flexibility and endurance of senior citizens."},
+
+{"type":"quiz","topic":"Fitness Test","q":"Explain Harvard Step Test.","answer":"It measures cardiovascular endurance by stepping exercise followed by pulse rate measurement."},
+
+{"type":"quiz","topic":"Biomechanics","q":"Explain Newton’s First Law in sports.","answer":"An object remains at rest or motion unless acted upon by force, like a football staying still until kicked."},
+
+{"type":"quiz","topic":"Biomechanics","q":"Explain Newton’s Second Law in sports.","answer":"Force equals mass × acceleration. Greater force produces greater acceleration in sprinting or throwing."},
+
+{"type":"quiz","topic":"Biomechanics","q":"Explain Newton’s Third Law in sports.","answer":"Every action has equal and opposite reaction, such as pushing the ground while jumping."},
+
+{"type":"quiz","topic":"Psychology","q":"Explain Big Five personality traits.","answer":"The Big Five include openness, conscientiousness, extraversion, agreeableness and neuroticism."},
+
+{"type":"quiz","topic":"Psychology","q":"Explain aggression types in sports.","answer":"Hostile aggression aims to harm, while instrumental aggression aims to achieve victory."},
+
+{"type":"quiz","topic":"Psychology","q":"Explain motivation in sports.","answer":"Motivation is the inner drive that directs effort and persistence toward goals."},
+
+{"type":"quiz","topic":"Nutrition","q":"Explain BMI and its significance.","answer":"BMI is weight divided by height squared. It helps classify underweight, normal and obese individuals."},
+
+{"type":"quiz","topic":"Nutrition","q":"Explain diet myths.","answer":"Diet myths include skipping meals and avoiding all fats, which can harm health and metabolism."},
+
+{"type":"quiz","topic":"Injury","q":"Explain RICE method.","answer":"RICE stands for Rest, Ice, Compression and Elevation to reduce swelling and pain after injury."},
+
+{"type":"quiz","topic":"Injury","q":"Explain fracture types.","answer":"Fractures include simple, compound, greenstick and comminuted types."}
 ]
