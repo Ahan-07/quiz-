@@ -29,7 +29,17 @@ loadQ();
 }
 
 function buildSmartQuiz(allQ,type){
-let filtered=allQ;
+// remove duplicate questions by text (case-insensitive)
+let deduped=[];
+let seen=new Set();
+allQ.forEach(q=>{
+	let key=(q.q||'').toString().trim().toLowerCase();
+	if(!seen.has(key)){
+		seen.add(key);
+		deduped.push(q);
+	}
+});
+let filtered=deduped;
 if(type==='mcq'){
 filtered=allQ.filter(q=>q.type==='mcq');
 }else if(type==='quiz'){
@@ -47,6 +57,70 @@ if(i<quizzes.length) selected.push(quizzes[i]);
 filtered=selected;
 }
 let selected=shuffle(filtered).slice(0,50);
+
+// try to reorder selected so no two consecutive questions share the same topic
+function interleaveByTopic(arr){
+	let buckets={};
+	arr.forEach(q=>{ if(!buckets[q.topic]) buckets[q.topic]=[]; buckets[q.topic].push(q); });
+	// sort topics by remaining count when choosing
+	let result=[];
+	let last=null;
+	while(true){
+		let candidates=Object.keys(buckets).filter(t=>buckets[t].length>0 && t!==last);
+		if(candidates.length===0) break;
+		candidates.sort((a,b)=>buckets[b].length-buckets[a].length);
+		let pick=candidates[0];
+		result.push(buckets[pick].shift());
+		last=pick;
+	}
+	// append any leftovers
+	Object.keys(buckets).forEach(t=>{ while(buckets[t] && buckets[t].length) result.push(buckets[t].shift()); });
+	return result;
+}
+
+selected = interleaveByTopic(selected);
+
+// try to avoid consecutive questions of the same type (mcq/long/quiz/etc.)
+for(let i=1;i<selected.length;i++){
+	if(selected[i].type===selected[i-1].type){
+		// find a later item with a different type to swap in
+		let swapIdx=-1;
+		for(let j=i+1;j<selected.length;j++){
+			if(selected[j].type!==selected[i-1].type && selected[j].topic!==selected[i-1].topic){
+				swapIdx=j; break;
+			}
+
+			// Shuffle options for MCQ questions and fix the answer index so the correct
+			// option is preserved but not always at index 0.
+			function shuffleMCQOptions(arr){
+				arr.forEach(q=>{
+					if(q.type==='mcq' && Array.isArray(q.options) && typeof q.answer==='number'){
+						let correctText=q.options[q.answer];
+						// shuffle options copy
+						let opts=q.options.slice();
+						for(let i=opts.length-1;i>0;i--){
+							let j=Math.floor(Math.random()*(i+1));
+							[opts[i],opts[j]]=[opts[j],opts[i]];
+						}
+						q.options=opts;
+						q.answer=opts.indexOf(correctText);
+					}
+				});
+			}
+
+			shuffleMCQOptions(selected);
+		}
+		// fallback: find any with different type
+		if(swapIdx===-1){
+			for(let j=i+1;j<selected.length;j++){
+				if(selected[j].type!==selected[i-1].type){ swapIdx=j; break; }
+			}
+		}
+		if(swapIdx>-1){
+			[selected[i], selected[swapIdx]] = [selected[swapIdx], selected[i]];
+		}
+	}
+}
 let topicMap={};
 selected.forEach(q=>{ topicMap[q.topic]=(topicMap[q.topic]||0)+1; });
 selected.forEach(q=>{ weightage[q.topic]=0; });
@@ -84,10 +158,22 @@ document.getElementById("mcq").innerHTML=html;
 }else{
 document.getElementById("mcq").innerHTML="";
 document.getElementById("longDiv").style.display="block";
+// For long/quiz types show the answer directly and remove submission UI
 document.getElementById("navButtons").style.display="flex";
 document.getElementById("longAns").value="";
-document.getElementById("longAns").disabled=false;
-document.querySelector(".submit-btn").disabled=false;
+document.getElementById("longAns").style.display="none";
+let submitBtn=document.querySelector(".submit-btn");
+if(submitBtn) submitBtn.style.display='none';
+// mark as answered to prevent submission attempts
+answered=true;
+// display the canonical answer immediately
+if(q.answer){
+	document.getElementById("answerBox").style.display="block";
+	document.getElementById("answerText").innerText=q.answer;
+} else if(q.keywords){
+	document.getElementById("answerBox").style.display="block";
+	document.getElementById("answerText").innerText="Keywords: "+q.keywords.join(', ');
+}
 document.getElementById("prevBtn").disabled=(index===0);
 }
 
@@ -205,19 +291,6 @@ if(index>=quiz.length){
 showFinalResults();
 return;
 }
-
-if(Object.keys(weak).length>0){
-let weakTopic=Object.keys(weak).sort((a,b)=>weak[b]-weak[a])[0];
-let weakQuestions=quiz.filter(q=>q.topic===weakTopic);
-if(weakQuestions.length>0){
-let wq=weakQuestions[Math.floor(Math.random()*weakQuestions.length)];
-let wIdx=quiz.indexOf(wq);
-if(wIdx>-1 && wIdx!==index){
-[quiz[index],quiz[wIdx]]=[quiz[wIdx],quiz[index]];
-}
-}
-}
-
 loadQ();
 }
 
